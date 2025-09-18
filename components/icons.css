@@ -1,0 +1,297 @@
+/* ========================================
+   E360 DESIGN SYSTEM - ICON SYSTEM
+   ======================================== */
+
+/* Icon Base Styles */
+.icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+  vertical-align: middle;
+}
+
+.icon-sm {
+  width: 16px;
+  height: 16px;
+}
+
+.icon-lg {
+  width: 32px;
+  height: 32px;
+}
+
+.icon-xl {
+  width: 48px;
+  height: 48px;
+}
+
+/* Icon Colors */
+.icon-primary { color: var(--color-primary); }
+.icon-secondary { color: var(--color-secondary); }
+.icon-success { color: var(--color-success); }
+.icon-warning { color: var(--color-warning); }
+.icon-error { color: var(--color-error); }
+.icon-info { color: var(--color-info); }
+
+/* Common Icons */
+.icon-arrow-right {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-arrow-left {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-arrow-up {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-arrow-down {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-close {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-menu {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-search {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-user {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-settings {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-heart {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-star {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-check {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-plus {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-minus {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-edit {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-delete {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-download {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-upload {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-home {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-mail {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-phone {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-calendar {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-clock {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-location {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-link {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-external {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-info {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-warning {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-error {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-success {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+}
+
+.icon-loading {
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Icon Button Styles */
+.icon-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 6px;
+  background: transparent;
+  color: var(--color-text-secondary);
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.icon-button:hover {
+  background: var(--cool-gray-100);
+  color: var(--color-text-primary);
+}
+
+.icon-button:focus {
+  outline: none;
+  box-shadow: var(--focus-primary);
+}
+
+.icon-button-primary {
+  background: var(--color-primary);
+  color: var(--color-text-inverse);
+}
+
+.icon-button-primary:hover {
+  background: var(--color-primary-hover);
+}
+
+.icon-button-secondary {
+  background: var(--color-secondary);
+  color: var(--color-text-inverse);
+}
+
+.icon-button-secondary:hover {
+  background: var(--color-secondary-hover);
+}
+
+/* Icon Sizes for Buttons */
+.icon-button .icon {
+  width: 20px;
+  height: 20px;
+}
+
+.icon-button-sm {
+  width: 32px;
+  height: 32px;
+}
+
+.icon-button-sm .icon {
+  width: 16px;
+  height: 16px;
+}
+
+.icon-button-lg {
+  width: 48px;
+  height: 48px;
+}
+
+.icon-button-lg .icon {
+  width: 24px;
+  height: 24px;
+}
