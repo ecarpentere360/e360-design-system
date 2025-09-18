@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E360 Design System - Color Palette</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 40px;
+            background-color: var(--cool-gray-100);
+            font-family: var(--font-family-primary);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .color-family {
+            margin-bottom: 60px;
+        }
+        
+        .color-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .color-swatch {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: var(--shadow-sm);
+            text-align: center;
+        }
+        
+        .color-circle {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            margin: 0 auto 16px;
+            border: 2px solid var(--cool-gray-200);
+        }
+        
+        .color-name {
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--color-text-primary);
+        }
+        
+        .color-code {
+            font-size: 14px;
+            color: var(--color-text-secondary);
+            font-family: 'Courier New', monospace;
+        }
+        
+        .family-title {
+            font-size: var(--display-4-size);
+            font-weight: 600;
+            margin-bottom: 20px;
+            color: var(--color-text-primary);
+        }
+        
+        .gradient-section {
+            margin-top: 80px;
+        }
+        
+        .gradient-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-bottom: 40px;
+        }
+        
+        .gradient-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            box-shadow: var(--shadow-sm);
+        }
+        
+        .gradient-preview {
+            height: 100px;
+            border-radius: 6px;
+            margin-bottom: 16px;
+            border: 1px solid var(--cool-gray-200);
+        }
+        
+        .gradient-name {
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: var(--color-text-primary);
+        }
+        
+        .gradient-code {
+            font-size: 12px;
+            color: var(--color-text-secondary);
+            font-family: 'Courier New', monospace;
+            word-break: break-all;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="display-1">E360 Design System</h1>
+            <p class="paragraph-lg">Complete Color Palette & Gradients</p>
+        </div>
+
+        <!-- Red Color Family -->
+        <div class="color-family">
+            <h2 class="family-title">Red Palette</h2>
+            <div class="color-grid">
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--red-100);"></div>
+                    <div class="color-name">Red 100</div>
+                    <div class="color-code">#FFEBED</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--red-200);"></div>
+                    <div class="color-name">Red 200</div>
+                    <div class="color-code">#FFAEB6</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--red-300);"></div>
+                    <div class="color-name">Red 300</div>
+                    <div class="color-code">#FF8592</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--red-400);"></div>
+                    <div class="color-name">Red 400</div>
+                    <div class="color-code">#FF5D6D</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--red-500);"></div>
+                    <div class="color-name">Red 500 ⭐</div>
+                    <div class="color-code">#FF3449</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--red-600);"></div>
+                    <div class="color-name">Red 600</div>
+                    <div class="color-code">#E02D40</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--red-700);"></div>
+                    <div class="color-name">Red 700</div>
+                    <div class="color-code">#B32433</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--red-800);"></div>
+                    <div class="color-name">Red 800</div>
+                    <div class="color-code">#801A24</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--red-900);"></div>
+                    <div class="color-name">Red 900</div>
+                    <div class="color-code">#4D1016</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--red-1000);"></div>
+                    <div class="color-name">Red 1000</div>
+                    <div class="color-code">#1A0507</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Blue Color Family -->
+        <div class="color-family">
+            <h2 class="family-title">Blue Palette</h2>
+            <div class="color-grid">
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--blue-100);"></div>
+                    <div class="color-name">Blue 100</div>
+                    <div class="color-code">#E9E7FF</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--blue-200);"></div>
+                    <div class="color-name">Blue 200</div>
+                    <div class="color-code">#A6A1FF</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--blue-300);"></div>
+                    <div class="color-name">Blue 300</div>
+                    <div class="color-code">#7972FF</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--blue-400);"></div>
+                    <div class="color-name">Blue 400</div>
+                    <div class="color-code">#4C42FF</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--blue-500);"></div>
+                    <div class="color-name">Blue 500 ⭐</div>
+                    <div class="color-code">#2013FF</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--blue-600);"></div>
+                    <div class="color-name">Blue 600</div>
+                    <div class="color-code">#1D11E6</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--blue-700);"></div>
+                    <div class="color-name">Blue 700</div>
+                    <div class="color-code">#160DB3</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--blue-800);"></div>
+                    <div class="color-name">Blue 800</div>
+                    <div class="color-code">#110A8B</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--blue-900);"></div>
+                    <div class="color-name">Blue 900</div>
+                    <div class="color-code">#0A064D</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--blue-1000);"></div>
+                    <div class="color-name">Blue 1000</div>
+                    <div class="color-code">#03021A</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Cool Gray Color Family -->
+        <div class="color-family">
+            <h2 class="family-title">Cool Gray Palette</h2>
+            <div class="color-grid">
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--cool-gray-0);"></div>
+                    <div class="color-name">Cool Gray 0</div>
+                    <div class="color-code">#FFFFFF</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--cool-gray-100);"></div>
+                    <div class="color-name">Cool Gray 100</div>
+                    <div class="color-code">#F9F9FA</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--cool-gray-200);"></div>
+                    <div class="color-name">Cool Gray 200</div>
+                    <div class="color-code">#E6E6E9</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--cool-gray-300);"></div>
+                    <div class="color-name">Cool Gray 300</div>
+                    <div class="color-code">#CCCED3</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--cool-gray-400);"></div>
+                    <div class="color-name">Cool Gray 400</div>
+                    <div class="color-code">#9A9DA7</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--cool-gray-500);"></div>
+                    <div class="color-name">Cool Gray 500</div>
+                    <div class="color-code">#676C7B</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--cool-gray-600);"></div>
+                    <div class="color-name">Cool Gray 600</div>
+                    <div class="color-code">#4E5365</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--cool-gray-700);"></div>
+                    <div class="color-name">Cool Gray 700</div>
+                    <div class="color-code">#353B4F</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--cool-gray-800);"></div>
+                    <div class="color-name">Cool Gray 800</div>
+                    <div class="color-code">#1B2239</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--cool-gray-900);"></div>
+                    <div class="color-name">Cool Gray 900</div>
+                    <div class="color-code">#020A23</div>
+                </div>
+                <div class="color-swatch">
+                    <div class="color-circle" style="background-color: var(--cool-gray-1000);"></div>
+                    <div class="color-name">Cool Gray 1000</div>
+                    <div class="color-code">#000000</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gradient Section -->
+        <div class="gradient-section">
+            <h2 class="family-title">Gradient Collection</h2>
+            
+            <h3 class="display-6" style="margin-bottom: 20px;">Red Gradients</h3>
+            <div class="gradient-grid">
+                <div class="gradient-card">
+                    <div class="gradient-preview bg-gradient-red-1"></div>
+                    <div class="gradient-name">Red Gradient 1</div>
+                    <div class="gradient-code">linear-gradient(103deg, #FF3449 0%, #C02978 34%, #5118D3 88%, #1D11E6 100%)</div>
+                </div>
+                <div class="gradient-card">
+                    <div class="gradient-preview bg-gradient-red-2"></div>
+                    <div class="gradient-name">Red Gradient 2</div>
+                    <div class="gradient-code">linear-gradient(164deg, #FF3449 0%, #E02D40 50%, #B32433 100%)</div>
+                </div>
+                <div class="gradient-card">
+                    <div class="gradient-preview bg-gradient-red-3"></div>
+                    <div class="gradient-name">Red Gradient 3</div>
+                    <div class="gradient-code">linear-gradient(108deg, #8F1D29 0%, #FF3449 33%, #FFAEB6 67%, #FFEBED 100%)</div>
+                </div>
+            </div>
+
+            <h3 class="display-6" style="margin-bottom: 20px;">Blue Gradients</h3>
+            <div class="gradient-grid">
+                <div class="gradient-card">
+                    <div class="gradient-preview bg-gradient-blue-1"></div>
+                    <div class="gradient-name">Blue Gradient 1</div>
+                    <div class="gradient-code">linear-gradient(105deg, #4C42FF 0%, #2013FF 14%, #110A8B 56%, #450E58 83%, #8D434A 100%)</div>
+                </div>
+                <div class="gradient-card">
+                    <div class="gradient-preview bg-gradient-blue-2"></div>
+                    <div class="gradient-name">Blue Gradient 2</div>
+                    <div class="gradient-code">linear-gradient(219deg, #2013FF 0%, #450E58 100%)</div>
+                </div>
+                <div class="gradient-card">
+                    <div class="gradient-preview bg-gradient-blue-3"></div>
+                    <div class="gradient-name">Blue Gradient 3</div>
+                    <div class="gradient-code">linear-gradient(16deg, #0A064D 0%, #110A8B 50%, #110A8B 100%)</div>
+                </div>
+            </div>
+
+            <h3 class="display-6" style="margin-bottom: 20px;">Light Gradients</h3>
+            <div class="gradient-grid">
+                <div class="gradient-card">
+                    <div class="gradient-preview bg-gradient-light-1"></div>
+                    <div class="gradient-name">Light Gradient 1</div>
+                    <div class="gradient-code">linear-gradient(99deg, #F3CCD0 0%, #FFEBED 14%, #FBF0F5 29%, #EDECFF 43%, #E6D0F2 57%, #D8B1E7 68%, #D3A6E3 71%, #987AEF 86%, #4C42FF 100%)</div>
+                </div>
+                <div class="gradient-card">
+                    <div class="gradient-preview bg-gradient-light-2"></div>
+                    <div class="gradient-name">Light Gradient 2</div>
+                    <div class="gradient-code">linear-gradient(99deg, #F3CCD0 0%, #FFEBED 27%, #FFFEFE 73%, #FFFFFF 100%)</div>
+                </div>
+                <div class="gradient-card">
+                    <div class="gradient-preview bg-gradient-light-3"></div>
+                    <div class="gradient-name">Light Gradient 3</div>
+                    <div class="gradient-code">linear-gradient(99deg, #F0E3F5 0%, #F3F2FF 38%, #FFFFFF 100%)</div>
+                </div>
+                <div class="gradient-card">
+                    <div class="gradient-preview bg-gradient-light-4"></div>
+                    <div class="gradient-name">Light Gradient 4</div>
+                    <div class="gradient-code">linear-gradient(349deg, #FFFFFF 0%, #F9F9FA 50%, #E9E7FF 100%)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
