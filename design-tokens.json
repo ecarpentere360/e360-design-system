@@ -1,0 +1,510 @@
+{
+  "color": {
+    "red": {
+      "100": {
+        "description": "Lightest red tint",
+        "type": "color",
+        "value": "#FFEBED"
+      },
+      "200": {
+        "description": "Light red tint",
+        "type": "color",
+        "value": "#FFAEB6"
+      },
+      "300": {
+        "description": "Medium light red",
+        "type": "color",
+        "value": "#FF8592"
+      },
+      "400": {
+        "description": "Medium red",
+        "type": "color",
+        "value": "#FF5D6D"
+      },
+      "500": {
+        "description": "Primary brand color",
+        "type": "color",
+        "value": "#FF3449"
+      },
+      "600": {
+        "description": "Medium dark red",
+        "type": "color",
+        "value": "#E02D40"
+      },
+      "700": {
+        "description": "Dark red",
+        "type": "color",
+        "value": "#B32433"
+      },
+      "800": {
+        "description": "Darker red",
+        "type": "color",
+        "value": "#801A24"
+      },
+      "900": {
+        "description": "Very dark red",
+        "type": "color",
+        "value": "#4D1016"
+      },
+      "1000": {
+        "description": "Darkest red shade",
+        "type": "color",
+        "value": "#1A0507"
+      }
+    },
+    "blue": {
+      "100": {
+        "description": "Lightest blue tint",
+        "type": "color",
+        "value": "#E9E7FF"
+      },
+      "200": {
+        "description": "Light blue tint",
+        "type": "color",
+        "value": "#A6A1FF"
+      },
+      "300": {
+        "description": "Medium light blue",
+        "type": "color",
+        "value": "#7972FF"
+      },
+      "400": {
+        "description": "Medium blue",
+        "type": "color",
+        "value": "#4C42FF"
+      },
+      "500": {
+        "description": "Secondary brand color",
+        "type": "color",
+        "value": "#2013FF"
+      },
+      "600": {
+        "description": "Medium dark blue",
+        "type": "color",
+        "value": "#1D11E6"
+      },
+      "700": {
+        "description": "Dark blue",
+        "type": "color",
+        "value": "#160DB3"
+      },
+      "800": {
+        "description": "Darker blue",
+        "type": "color",
+        "value": "#110A8B"
+      },
+      "900": {
+        "description": "Very dark blue",
+        "type": "color",
+        "value": "#0A064D"
+      },
+      "1000": {
+        "description": "Darkest blue shade",
+        "type": "color",
+        "value": "#03021A"
+      }
+    },
+    "violet": {
+      "100": {
+        "description": "Lightest violet tint",
+        "type": "color",
+        "value": "#F4E9F8"
+      },
+      "200": {
+        "description": "Light violet tint",
+        "type": "color",
+        "value": "#D3A6E3"
+      },
+      "300": {
+        "description": "Medium light violet",
+        "type": "color",
+        "value": "#BD79D5"
+      },
+      "400": {
+        "description": "Medium violet",
+        "type": "color",
+        "value": "#A74DC7"
+      },
+      "500": {
+        "description": "Primary violet",
+        "type": "color",
+        "value": "#9120B9"
+      },
+      "600": {
+        "description": "Medium dark violet",
+        "type": "color",
+        "value": "#821DA7"
+      },
+      "700": {
+        "description": "Dark violet",
+        "type": "color",
+        "value": "#661682"
+      },
+      "800": {
+        "description": "Darker violet",
+        "type": "color",
+        "value": "#450E58"
+      },
+      "900": {
+        "description": "Very dark violet",
+        "type": "color",
+        "value": "#2C0A38"
+      },
+      "1000": {
+        "description": "Darkest violet shade",
+        "type": "color",
+        "value": "#0F0313"
+      }
+    },
+    "coolGray": {
+      "0": {
+        "description": "Pure white",
+        "type": "color",
+        "value": "#FFFFFF"
+      },
+      "100": {
+        "description": "Lightest gray tint",
+        "type": "color",
+        "value": "#F9F9FA"
+      },
+      "200": {
+        "description": "Light gray tint",
+        "type": "color",
+        "value": "#E6E6E9"
+      },
+      "300": {
+        "description": "Medium light gray",
+        "type": "color",
+        "value": "#CCCED3"
+      },
+      "400": {
+        "description": "Medium gray",
+        "type": "color",
+        "value": "#9A9DA7"
+      },
+      "500": {
+        "description": "Base gray",
+        "type": "color",
+        "value": "#676C7B"
+      },
+      "600": {
+        "description": "Medium dark gray",
+        "type": "color",
+        "value": "#4E5365"
+      },
+      "700": {
+        "description": "Dark gray",
+        "type": "color",
+        "value": "#353B4F"
+      },
+      "800": {
+        "description": "Darker gray",
+        "type": "color",
+        "value": "#1B2239"
+      },
+      "900": {
+        "description": "Very dark gray",
+        "type": "color",
+        "value": "#020A23"
+      },
+      "1000": {
+        "description": "Pure black",
+        "type": "color",
+        "value": "#000000"
+      }
+    },
+    "orange": {
+      "100": {
+        "description": "Lightest orange tint",
+        "type": "color",
+        "value": "#FFF3EB"
+      },
+      "200": {
+        "description": "Light orange tint",
+        "type": "color",
+        "value": "#FFDCC2"
+      },
+      "300": {
+        "description": "Medium light orange",
+        "type": "color",
+        "value": "#FFC499"
+      },
+      "400": {
+        "description": "Medium orange",
+        "type": "color",
+        "value": "#FFA15D"
+      },
+      "500": {
+        "description": "Primary orange",
+        "type": "color",
+        "value": "#FF8934"
+      },
+      "600": {
+        "description": "Medium dark orange",
+        "type": "color",
+        "value": "#E67B2F"
+      },
+      "700": {
+        "description": "Dark orange",
+        "type": "color",
+        "value": "#B36024"
+      },
+      "800": {
+        "description": "Darker orange",
+        "type": "color",
+        "value": "#80451A"
+      },
+      "900": {
+        "description": "Very dark orange",
+        "type": "color",
+        "value": "#4D2910"
+      },
+      "1000": {
+        "description": "Darkest orange shade",
+        "type": "color",
+        "value": "#1A0E05"
+      }
+    },
+    "green": {
+      "100": {
+        "description": "Lightest green tint",
+        "type": "color",
+        "value": "#D8F9E6"
+      },
+      "200": {
+        "description": "Light green tint",
+        "type": "color",
+        "value": "#ADF4CE"
+      },
+      "300": {
+        "description": "Medium light green",
+        "type": "color",
+        "value": "#89ECBC"
+      },
+      "400": {
+        "description": "Medium green",
+        "type": "color",
+        "value": "#49CC93"
+      },
+      "500": {
+        "description": "Primary green",
+        "type": "color",
+        "value": "#15A46E"
+      },
+      "600": {
+        "description": "Medium dark green",
+        "type": "color",
+        "value": "#008F5D"
+      },
+      "700": {
+        "description": "Dark green",
+        "type": "color",
+        "value": "#007A4D"
+      },
+      "800": {
+        "description": "Darker green",
+        "type": "color",
+        "value": "#00653E"
+      },
+      "900": {
+        "description": "Very dark green",
+        "type": "color",
+        "value": "#053F27"
+      },
+      "1000": {
+        "description": "Darkest green shade",
+        "type": "color",
+        "value": "#0A2E1D"
+      }
+    }
+  },
+  "gradient": {
+    "red": {
+      "1": {
+        "description": "Multi-color brand gradient",
+        "type": "gradient",
+        "value": "linear-gradient(103deg, #FF3449 0%, #C02978 34%, #5118D3 88%, #1D11E6 100%)"
+      },
+      "2": {
+        "description": "Simple red progression",
+        "type": "gradient",
+        "value": "linear-gradient(164deg, #FF3449 0%, #E02D40 50%, #B32433 100%)"
+      },
+      "3": {
+        "description": "Light to dark red",
+        "type": "gradient",
+        "value": "linear-gradient(108deg, #8F1D29 0%, #FF3449 33%, #FFAEB6 67%, #FFEBED 100%)"
+      }
+    },
+    "blue": {
+      "1": {
+        "description": "Multi-color blue progression",
+        "type": "gradient",
+        "value": "linear-gradient(105deg, #4C42FF 0%, #2013FF 14%, #110A8B 56%, #450E58 83%, #8D434A 100%)"
+      },
+      "2": {
+        "description": "Simple blue to violet",
+        "type": "gradient",
+        "value": "linear-gradient(219deg, #2013FF 0%, #450E58 100%)"
+      },
+      "3": {
+        "description": "Dark blue progression",
+        "type": "gradient",
+        "value": "linear-gradient(16deg, #0A064D 0%, #110A8B 50%, #110A8B 100%)"
+      }
+    },
+    "dark": {
+      "1": {
+        "description": "Black to violet",
+        "type": "gradient",
+        "value": "linear-gradient(35deg, #000000 0%, #0A064D 50%, #450E58 100%)"
+      },
+      "2": {
+        "description": "Black to cool gray",
+        "type": "gradient",
+        "value": "linear-gradient(151deg, #000000 0%, #020A23 50%, #353B4F 100%)"
+      },
+      "3": {
+        "description": "Violet progression",
+        "type": "gradient",
+        "value": "linear-gradient(337deg, #2C0A38 0%, #450E58 50%, #661682 100%)"
+      }
+    },
+    "light": {
+      "1": {
+        "description": "Rainbow light gradient",
+        "type": "gradient",
+        "value": "linear-gradient(99deg, #F3CCD0 0%, #FFEBED 14%, #FBF0F5 29%, #EDECFF 43%, #E6D0F2 57%, #D8B1E7 68%, #D3A6E3 71%, #987AEF 86%, #4C42FF 100%)"
+      },
+      "2": {
+        "description": "Pink to white",
+        "type": "gradient",
+        "value": "linear-gradient(99deg, #F3CCD0 0%, #FFEBED 27%, #FFFEFE 73%, #FFFFFF 100%)"
+      },
+      "3": {
+        "description": "Purple to white",
+        "type": "gradient",
+        "value": "linear-gradient(99deg, #F0E3F5 0%, #F3F2FF 38%, #FFFFFF 100%)"
+      },
+      "4": {
+        "description": "White to blue tint",
+        "type": "gradient",
+        "value": "linear-gradient(349deg, #FFFFFF 0%, #F9F9FA 50%, #E9E7FF 100%)"
+      }
+    }
+  },
+  "typography": {
+    "display": {
+      "1": {
+        "description": "Hero headlines",
+        "fontSize": "96px",
+        "lineHeight": "105.6px",
+        "fontWeight": "400",
+        "letterSpacing": "-1.92px"
+      },
+      "2": {
+        "description": "Page titles",
+        "fontSize": "64px",
+        "lineHeight": "70.4px",
+        "fontWeight": "400",
+        "letterSpacing": "-0.64px"
+      },
+      "3": {
+        "description": "Section headings",
+        "fontSize": "48px",
+        "lineHeight": "52.8px",
+        "fontWeight": "400",
+        "letterSpacing": "-0.48px"
+      },
+      "4": {
+        "description": "Subsection headings",
+        "fontSize": "40px",
+        "lineHeight": "46px",
+        "fontWeight": "400",
+        "letterSpacing": "-0.4px"
+      },
+      "5": {
+        "description": "Component titles",
+        "fontSize": "36px",
+        "lineHeight": "41.4px",
+        "fontWeight": "400",
+        "letterSpacing": "-0.36px"
+      },
+      "6": {
+        "description": "Small headings",
+        "fontSize": "32px",
+        "lineHeight": "38.4px",
+        "fontWeight": "400",
+        "letterSpacing": "-0.32px"
+      },
+      "7": {
+        "description": "Card titles",
+        "fontSize": "24px",
+        "lineHeight": "28.8px",
+        "fontWeight": "400",
+        "letterSpacing": "-0.24px"
+      }
+    },
+    "paragraph": {
+      "lg": {
+        "description": "Lead text, important content",
+        "fontSize": "20px",
+        "lineHeight": "28px",
+        "fontWeight": "500",
+        "letterSpacing": "0px"
+      },
+      "md": {
+        "description": "Standard body text",
+        "fontSize": "16px",
+        "lineHeight": "24px",
+        "fontWeight": "400",
+        "letterSpacing": "0px"
+      },
+      "sm": {
+        "description": "Captions, metadata",
+        "fontSize": "13px",
+        "lineHeight": "19.5px",
+        "fontWeight": "400",
+        "letterSpacing": "0px"
+      }
+    }
+  },
+  "effects": {
+    "shadow": {
+      "sm": {
+        "description": "Subtle elevation for cards and components",
+        "type": "shadow",
+        "value": "0px 2.74px 4.11px -1.37px rgba(2, 10, 35, 0.04), 0px 8.22px 10.96px -2.74px rgba(2, 10, 35, 0.08)"
+      }
+    },
+    "focus": {
+      "primary": {
+        "description": "Focus ring for interactive elements",
+        "type": "focus",
+        "value": "0px 0px 0px 4px #FFAEB6"
+      }
+    }
+  },
+  "semantic": {
+    "colors": {
+      "primary": "#FF3449",
+      "secondary": "#2013FF",
+      "success": "#15A46E",
+      "warning": "#FF8934",
+      "error": "#FF3449",
+      "info": "#2013FF"
+    },
+    "text": {
+      "primary": "#020A23",
+      "secondary": "#4E5365",
+      "tertiary": "#676C7B",
+      "inverse": "#FFFFFF"
+    },
+    "background": {
+      "primary": "#FFFFFF",
+      "secondary": "#F9F9FA",
+      "tertiary": "#E6E6E9",
+      "inverse": "#020A23"
+    }
+  }
+}
