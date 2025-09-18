@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E360 Design System - Business Components</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../components/icons.css">
+    <link rel="stylesheet" href="../components/forms.css">
+    <link rel="stylesheet" href="../components/business.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: var(--font-family-primary);
+            background-color: var(--cool-gray-100);
+        }
+        
+        .demo-section {
+            margin-bottom: 80px;
+        }
+        
+        .demo-title {
+            font-size: var(--display-4-size);
+            font-weight: 600;
+            margin-bottom: 40px;
+            color: var(--color-text-primary);
+            text-align: center;
+            padding: 40px 24px 0;
+        }
+        
+        .demo-description {
+            text-align: center;
+            font-size: var(--paragraph-lg-size);
+            color: var(--color-text-secondary);
+            margin-bottom: 60px;
+            padding: 0 24px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Hero Section Demo -->
+    <div class="demo-section">
+        <h1 class="demo-title">Hero Section</h1>
+        <p class="demo-description">Eye-catching hero sections with CTAs and trust elements</p>
+        
+        <div class="hero">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <h1 class="hero-title">Build Amazing Websites with E360</h1>
+                    <p class="hero-subtitle">The complete design system for modern web applications</p>
+                    <p class="hero-description">Create beautiful, consistent user interfaces with our comprehensive collection of components, colors, and typography.</p>
+                    <div class="hero-actions">
+                        <button class="btn btn-primary">Get Started</button>
+                        <button class="btn btn-outline">View Examples</button>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="https://via.placeholder.com/600x400/FF3449/FFFFFF?text=Hero+Image" alt="Hero Image">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Trust Bar Demo -->
+    <div class="demo-section">
+        <h2 class="demo-title">Trust Bar</h2>
+        <p class="demo-description">Build credibility with partner logos and social proof</p>
+        
+        <div class="trust-bar">
+            <div class="trust-bar-container">
+                <p class="trust-bar-title">Trusted by leading companies</p>
+                <div class="trust-bar-logos">
+                    <div class="trust-bar-logo">
+                        <img src="https://via.placeholder.com/120x40/676C7B/FFFFFF?text=Company+1" alt="Company 1">
+                    </div>
+                    <div class="trust-bar-logo">
+                        <img src="https://via.placeholder.com/120x40/676C7B/FFFFFF?text=Company+2" alt="Company 2">
+                    </div>
+                    <div class="trust-bar-logo">
+                        <img src="https://via.placeholder.com/120x40/676C7B/FFFFFF?text=Company+3" alt="Company 3">
+                    </div>
+                    <div class="trust-bar-logo">
+                        <img src="https://via.placeholder.com/120x40/676C7B/FFFFFF?text=Company+4" alt="Company 4">
+                    </div>
+                    <div class="trust-bar-logo">
+                        <img src="https://via.placeholder.com/120x40/676C7B/FFFFFF?text=Company+5" alt="Company 5">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Switchback Component Demo -->
+    <div class="demo-section">
+        <h2 class="demo-title">Switchback Component</h2>
+        <p class="demo-description">Alternating content sections for feature showcases</p>
+        
+        <div class="switchback">
+            <div class="container">
+                <div class="switchback-item">
+                    <div class="switchback-content">
+                        <h3 class="switchback-title">Powerful Features</h3>
+                        <p class="switchback-subtitle">Everything you need to build amazing websites</p>
+                        <p class="switchback-description">Our design system includes comprehensive components, beautiful typography, and a complete color palette that works across all devices.</p>
+                        <ul class="switchback-features">
+                            <li class="switchback-feature">
+                                <svg class="switchback-feature-icon" viewBox="0 0 24 24">
+                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                                </svg>
+                                Responsive Design
+                            </li>
+                            <li class="switchback-feature">
+                                <svg class="switchback-feature-icon" viewBox="0 0 24 24">
+                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                                </svg>
+                                Accessibility Ready
+                            </li>
+                            <li class="switchback-feature">
+                                <svg class="switchback-feature-icon" viewBox="0 0 24 24">
+                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                                </svg>
+                                Easy to Customize
+                            </li>
+                        </ul>
+                        <button class="btn btn-primary">Learn More</button>
+                    </div>
+                    <div class="switchback-image">
+                        <img src="https://via.placeholder.com/600x400/2013FF/FFFFFF?text=Feature+Image" alt="Feature Image">
+                    </div>
+                </div>
+
+                <div class="switchback-item">
+                    <div class="switchback-content">
+                        <h3 class="switchback-title">Beautiful Design</h3>
+                        <p class="switchback-subtitle">Crafted with attention to detail</p>
+                        <p class="switchback-description">Every component is designed to work harmoniously together, creating cohesive user experiences that delight your customers.</p>
+                        <ul class="switchback-features">
+                            <li class="switchback-feature">
+                                <svg class="switchback-feature-icon" viewBox="0 0 24 24">
+                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                                </svg>
+                                Modern Aesthetics
+                            </li>
+                            <li class="switchback-feature">
+                                <svg class="switchback-feature-icon" viewBox="0 0 24 24">
+                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                                </svg>
+                                Consistent Branding
+                            </li>
+                            <li class="switchback-feature">
+                                <svg class="switchback-feature-icon" viewBox="0 0 24 24">
+                                    <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                                </svg>
+                                Professional Quality
+                            </li>
+                        </ul>
+                        <button class="btn btn-secondary">View Gallery</button>
+                    </div>
+                    <div class="switchback-image">
+                        <img src="https://via.placeholder.com/600x400/9120B9/FFFFFF?text=Design+Image" alt="Design Image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Conversion Panel Demo -->
+    <div class="demo-section">
+        <h2 class="demo-title">Conversion Panel</h2>
+        <p class="demo-description">Lead capture forms and conversion-focused layouts</p>
+        
+        <div class="container">
+            <div class="conversion-panel conversion-panel-primary">
+                <div class="conversion-panel-header">
+                    <h3 class="conversion-panel-title">Start Building Today</h3>
+                    <p class="conversion-panel-subtitle">Get access to our complete design system</p>
+                </div>
+                
+                <form class="conversion-panel-form">
+                    <div class="form-group">
+                        <input type="email" class="form-input" placeholder="Enter your email address">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Your company name">
+                    </div>
+                    <button class="btn btn-primary" style="width: 100%;">Get Started Free</button>
+                </form>
+                
+                <ul class="conversion-panel-benefits">
+                    <li class="conversion-panel-benefit">
+                        <svg class="conversion-panel-benefit-icon" viewBox="0 0 24 24">
+                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                        </svg>
+                        Complete component library
+                    </li>
+                    <li class="conversion-panel-benefit">
+                        <svg class="conversion-panel-benefit-icon" viewBox="0 0 24 24">
+                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                        </svg>
+                        Documentation & examples
+                    </li>
+                    <li class="conversion-panel-benefit">
+                        <svg class="conversion-panel-benefit-icon" viewBox="0 0 24 24">
+                            <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                        </svg>
+                        Regular updates
+                    </li>
+                </ul>
+                
+                <div class="conversion-panel-footer">
+                    No credit card required • Cancel anytime
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Feature Grid Demo -->
+    <div class="demo-section">
+        <h2 class="demo-title">Feature Grid</h2>
+        <p class="demo-description">Showcase key features and benefits</p>
+        
+        <div class="container">
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <svg class="feature-card-icon" viewBox="0 0 24 24">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                    <h4 class="feature-card-title">Premium Quality</h4>
+                    <p class="feature-card-description">Professional-grade components designed by experts</p>
+                </div>
+                
+                <div class="feature-card">
+                    <svg class="feature-card-icon" viewBox="0 0 24 24">
+                        <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                    </svg>
+                    <h4 class="feature-card-title">Easy to Use</h4>
+                    <p class="feature-card-description">Simple implementation with comprehensive documentation</p>
+                </div>
+                
+                <div class="feature-card">
+                    <svg class="feature-card-icon" viewBox="0 0 24 24">
+                        <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                    </svg>
+                    <h4 class="feature-card-title">Fully Responsive</h4>
+                    <p class="feature-card-description">Works perfectly on all devices and screen sizes</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Testimonial Demo -->
+    <div class="demo-section">
+        <h2 class="demo-title">Testimonial</h2>
+        <p class="demo-description">Social proof and customer testimonials</p>
+        
+        <div class="testimonial">
+            <div class="testimonial-content">
+                <blockquote class="testimonial-quote">
+                    "The E360 design system has transformed how we build products. It's saved us countless hours and helped us create more consistent, beautiful interfaces."
+                </blockquote>
+                <div class="testimonial-author">
+                    <img src="https://via.placeholder.com/48x48/FF3449/FFFFFF?text=JS" alt="John Smith" class="testimonial-avatar">
+                    <div class="testimonial-author-info">
+                        <p class="testimonial-author-name">John Smith</p>
+                        <p class="testimonial-author-title">Product Designer at TechCorp</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Pricing Cards Demo -->
+    <div class="demo-section">
+        <h2 class="demo-title">Pricing Cards</h2>
+        <p class="demo-description">Pricing plans and subscription options</p>
+        
+        <div class="container">
+            <div class="grid grid-3">
+                <div class="pricing-card">
+                    <h4 class="pricing-card-title">Starter</h4>
+                    <div class="pricing-card-price">$29</div>
+                    <div class="pricing-card-period">per month</div>
+                    <ul class="pricing-card-features">
+                        <li class="pricing-card-feature">
+                            <svg class="pricing-card-feature-icon" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                            </svg>
+                            Basic components
+                        </li>
+                        <li class="pricing-card-feature">
+                            <svg class="pricing-card-feature-icon" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                            </svg>
+                            Email support
+                        </li>
+                        <li class="pricing-card-feature">
+                            <svg class="pricing-card-feature-icon" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                            </svg>
+                            Documentation
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline" style="width: 100%;">Choose Plan</button>
+                </div>
+                
+                <div class="pricing-card pricing-card-featured">
+                    <h4 class="pricing-card-title">Professional</h4>
+                    <div class="pricing-card-price">$79</div>
+                    <div class="pricing-card-period">per month</div>
+                    <ul class="pricing-card-features">
+                        <li class="pricing-card-feature">
+                            <svg class="pricing-card-feature-icon" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                            </svg>
+                            All components
+                        </li>
+                        <li class="pricing-card-feature">
+                            <svg class="pricing-card-feature-icon" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                            </svg>
+                            Priority support
+                        </li>
+                        <li class="pricing-card-feature">
+                            <svg class="pricing-card-feature-icon" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                            </svg>
+                            Custom themes
+                        </li>
+                    </ul>
+                    <button class="btn btn-primary" style="width: 100%;">Choose Plan</button>
+                </div>
+                
+                <div class="pricing-card">
+                    <h4 class="pricing-card-title">Enterprise</h4>
+                    <div class="pricing-card-price">$199</div>
+                    <div class="pricing-card-period">per month</div>
+                    <ul class="pricing-card-features">
+                        <li class="pricing-card-feature">
+                            <svg class="pricing-card-feature-icon" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                            </svg>
+                            Everything included
+                        </li>
+                        <li class="pricing-card-feature">
+                            <svg class="pricing-card-feature-icon" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                            </svg>
+                            24/7 support
+                        </li>
+                        <li class="pricing-card-feature">
+                            <svg class="pricing-card-feature-icon" viewBox="0 0 24 24">
+                                <path d="M9 16.17L4.83 12l-1.42 1.41L9 19 21 7l-1.41-1.41z"/>
+                            </svg>
+                            Custom development
+                        </li>
+                    </ul>
+                    <button class="btn btn-outline" style="width: 100%;">Contact Sales</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- CTA Section Demo -->
+    <div class="demo-section">
+        <h2 class="demo-title">Call-to-Action Section</h2>
+        <p class="demo-description">Conversion-focused sections to drive action</p>
+        
+        <div class="cta-section">
+            <div class="cta-container">
+                <h3 class="cta-title">Ready to Get Started?</h3>
+                <p class="cta-description">Join thousands of developers and designers who are already using our design system.</p>
+                <div class="cta-actions">
+                    <button class="btn btn-primary">Start Free Trial</button>
+                    <button class="btn btn-outline">View Documentation</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
