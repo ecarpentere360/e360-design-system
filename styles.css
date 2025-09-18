@@ -1,0 +1,479 @@
+/* ========================================
+   E360 DESIGN SYSTEM - COMPLETE CSS
+   ======================================== */
+
+/* ========================================
+   COLOR SYSTEM
+   ======================================== */
+
+:root {
+  /* Red Palette */
+  --red-100: #FFEBED;
+  --red-200: #FFAEB6;
+  --red-300: #FF8592;
+  --red-400: #FF5D6D;
+  --red-500: #FF3449; /* Primary Brand Color */
+  --red-600: #E02D40;
+  --red-700: #B32433;
+  --red-800: #801A24;
+  --red-900: #4D1016;
+  --red-1000: #1A0507;
+
+  /* Blue Palette */
+  --blue-100: #E9E7FF;
+  --blue-200: #A6A1FF;
+  --blue-300: #7972FF;
+  --blue-400: #4C42FF;
+  --blue-500: #2013FF;
+  --blue-600: #1D11E6;
+  --blue-700: #160DB3;
+  --blue-800: #110A8B;
+  --blue-900: #0A064D;
+  --blue-1000: #03021A;
+
+  /* Violet Palette */
+  --violet-100: #F4E9F8;
+  --violet-200: #D3A6E3;
+  --violet-300: #BD79D5;
+  --violet-400: #A74DC7;
+  --violet-500: #9120B9;
+  --violet-600: #821DA7;
+  --violet-700: #661682;
+  --violet-800: #450E58;
+  --violet-900: #2C0A38;
+  --violet-1000: #0F0313;
+
+  /* Cool Gray Palette */
+  --cool-gray-0: #FFFFFF;
+  --cool-gray-100: #F9F9FA;
+  --cool-gray-200: #E6E6E9;
+  --cool-gray-300: #CCCED3;
+  --cool-gray-400: #9A9DA7;
+  --cool-gray-500: #676C7B;
+  --cool-gray-600: #4E5365;
+  --cool-gray-700: #353B4F;
+  --cool-gray-800: #1B2239;
+  --cool-gray-900: #020A23;
+  --cool-gray-1000: #000000;
+
+  /* Orange Palette */
+  --orange-100: #FFF3EB;
+  --orange-200: #FFDCC2;
+  --orange-300: #FFC499;
+  --orange-400: #FFA15D;
+  --orange-500: #FF8934;
+  --orange-600: #E67B2F;
+  --orange-700: #B36024;
+  --orange-800: #80451A;
+  --orange-900: #4D2910;
+  --orange-1000: #1A0E05;
+
+  /* Green Palette */
+  --green-100: #D8F9E6;
+  --green-200: #ADF4CE;
+  --green-300: #89ECBC;
+  --green-400: #49CC93;
+  --green-500: #15A46E;
+  --green-600: #008F5D;
+  --green-700: #007A4D;
+  --green-800: #00653E;
+  --green-900: #053F27;
+  --green-1000: #0A2E1D;
+
+  /* ========================================
+     GRADIENT SYSTEM
+     ======================================== */
+
+  /* Red Gradients */
+  --gradient-red-1: linear-gradient(103deg, #FF3449 0%, #C02978 34%, #5118D3 88%, #1D11E6 100%);
+  --gradient-red-2: linear-gradient(164deg, #FF3449 0%, #E02D40 50%, #B32433 100%);
+  --gradient-red-3: linear-gradient(108deg, #8F1D29 0%, #FF3449 33%, #FFAEB6 67%, #FFEBED 100%);
+
+  /* Blue Gradients */
+  --gradient-blue-1: linear-gradient(105deg, #4C42FF 0%, #2013FF 14%, #110A8B 56%, #450E58 83%, #8D434A 100%);
+  --gradient-blue-2: linear-gradient(219deg, #2013FF 0%, #450E58 100%);
+  --gradient-blue-3: linear-gradient(16deg, #0A064D 0%, #110A8B 50%, #110A8B 100%);
+
+  /* Dark Gradients */
+  --gradient-dark-1: linear-gradient(35deg, #000000 0%, #0A064D 50%, #450E58 100%);
+  --gradient-dark-2: linear-gradient(151deg, #000000 0%, #020A23 50%, #353B4F 100%);
+  --gradient-dark-3: linear-gradient(337deg, #2C0A38 0%, #450E58 50%, #661682 100%);
+
+  /* Light Gradients */
+  --gradient-light-1: linear-gradient(99deg, #F3CCD0 0%, #FFEBED 14%, #FBF0F5 29%, #EDECFF 43%, #E6D0F2 57%, #D8B1E7 68%, #D3A6E3 71%, #987AEF 86%, #4C42FF 100%);
+  --gradient-light-2: linear-gradient(99deg, #F3CCD0 0%, #FFEBED 27%, #FFFEFE 73%, #FFFFFF 100%);
+  --gradient-light-3: linear-gradient(99deg, #F0E3F5 0%, #F3F2FF 38%, #FFFFFF 100%);
+  --gradient-light-4: linear-gradient(349deg, #FFFFFF 0%, #F9F9FA 50%, #E9E7FF 100%);
+
+  /* ========================================
+     TYPOGRAPHY SYSTEM
+     ======================================== */
+
+  /* Font Family */
+  --font-family-primary: 'DM Sans', sans-serif;
+
+  /* Display Typography */
+  --display-1-size: 96px;
+  --display-1-line-height: 105.6px;
+  --display-1-weight: 400;
+  --display-1-spacing: -1.92px;
+
+  --display-2-size: 64px;
+  --display-2-line-height: 70.4px;
+  --display-2-weight: 400;
+  --display-2-spacing: -0.64px;
+
+  --display-3-size: 48px;
+  --display-3-line-height: 52.8px;
+  --display-3-weight: 400;
+  --display-3-spacing: -0.48px;
+
+  --display-4-size: 40px;
+  --display-4-line-height: 46px;
+  --display-4-weight: 400;
+  --display-4-spacing: -0.4px;
+
+  --display-5-size: 36px;
+  --display-5-line-height: 41.4px;
+  --display-5-weight: 400;
+  --display-5-spacing: -0.36px;
+
+  --display-6-size: 32px;
+  --display-6-line-height: 38.4px;
+  --display-6-weight: 400;
+  --display-6-spacing: -0.32px;
+
+  --display-7-size: 24px;
+  --display-7-line-height: 28.8px;
+  --display-7-weight: 400;
+  --display-7-spacing: -0.24px;
+
+  /* Paragraph Typography */
+  --paragraph-lg-size: 20px;
+  --paragraph-lg-line-height: 28px;
+  --paragraph-lg-weight: 500;
+  --paragraph-lg-spacing: 20px;
+
+  --paragraph-md-size: 16px;
+  --paragraph-md-line-height: 24px;
+  --paragraph-md-weight: 400;
+  --paragraph-md-spacing: 16px;
+
+  --paragraph-sm-size: 13px;
+  --paragraph-sm-line-height: 19.5px;
+  --paragraph-sm-weight: 400;
+  --paragraph-sm-spacing: 16px;
+
+  /* ========================================
+     EFFECTS SYSTEM
+     ======================================== */
+
+  /* Shadow Effects */
+  --shadow-sm: 
+    0px 2.74px 4.11px -1.37px rgba(2, 10, 35, 0.04),
+    0px 8.22px 10.96px -2.74px rgba(2, 10, 35, 0.08);
+
+  /* Focus States */
+  --focus-primary: 0px 0px 0px 4px #FFAEB6;
+  --focus-primary-color: #FFAEB6;
+  --focus-ring-width: 4px;
+
+  /* ========================================
+     SEMANTIC COLORS
+     ======================================== */
+
+  /* Primary Brand Colors */
+  --color-primary: var(--red-500);
+  --color-primary-hover: var(--red-600);
+  --color-primary-light: var(--red-100);
+
+  /* Secondary Colors */
+  --color-secondary: var(--blue-500);
+  --color-secondary-hover: var(--blue-600);
+  --color-secondary-light: var(--blue-100);
+
+  /* Semantic Colors */
+  --color-success: var(--green-500);
+  --color-success-light: var(--green-100);
+  --color-warning: var(--orange-500);
+  --color-warning-light: var(--orange-100);
+  --color-error: var(--red-500);
+  --color-error-light: var(--red-100);
+  --color-info: var(--blue-500);
+  --color-info-light: var(--blue-100);
+
+  /* Text Colors */
+  --color-text-primary: var(--cool-gray-900);
+  --color-text-secondary: var(--cool-gray-600);
+  --color-text-tertiary: var(--cool-gray-500);
+  --color-text-inverse: var(--cool-gray-0);
+
+  /* Background Colors */
+  --color-bg-primary: var(--cool-gray-0);
+  --color-bg-secondary: var(--cool-gray-100);
+  --color-bg-tertiary: var(--cool-gray-200);
+  --color-bg-inverse: var(--cool-gray-900);
+
+  /* Border Colors */
+  --color-border-primary: var(--cool-gray-300);
+  --color-border-secondary: var(--cool-gray-200);
+  --color-border-focus: var(--red-500);
+}
+
+/* ========================================
+   TYPOGRAPHY UTILITY CLASSES
+   ======================================== */
+
+.display-1 {
+  font-family: var(--font-family-primary);
+  font-size: var(--display-1-size);
+  font-weight: var(--display-1-weight);
+  line-height: var(--display-1-line-height);
+  letter-spacing: var(--display-1-spacing);
+}
+
+.display-2 {
+  font-family: var(--font-family-primary);
+  font-size: var(--display-2-size);
+  font-weight: var(--display-2-weight);
+  line-height: var(--display-2-line-height);
+  letter-spacing: var(--display-2-spacing);
+}
+
+.display-3 {
+  font-family: var(--font-family-primary);
+  font-size: var(--display-3-size);
+  font-weight: var(--display-3-weight);
+  line-height: var(--display-3-line-height);
+  letter-spacing: var(--display-3-spacing);
+}
+
+.display-4 {
+  font-family: var(--font-family-primary);
+  font-size: var(--display-4-size);
+  font-weight: var(--display-4-weight);
+  line-height: var(--display-4-line-height);
+  letter-spacing: var(--display-4-spacing);
+}
+
+.display-5 {
+  font-family: var(--font-family-primary);
+  font-size: var(--display-5-size);
+  font-weight: var(--display-5-weight);
+  line-height: var(--display-5-line-height);
+  letter-spacing: var(--display-5-spacing);
+}
+
+.display-6 {
+  font-family: var(--font-family-primary);
+  font-size: var(--display-6-size);
+  font-weight: var(--display-6-weight);
+  line-height: var(--display-6-line-height);
+  letter-spacing: var(--display-6-spacing);
+}
+
+.display-7 {
+  font-family: var(--font-family-primary);
+  font-size: var(--display-7-size);
+  font-weight: var(--display-7-weight);
+  line-height: var(--display-7-line-height);
+  letter-spacing: var(--display-7-spacing);
+}
+
+.paragraph-lg {
+  font-family: var(--font-family-primary);
+  font-size: var(--paragraph-lg-size);
+  font-weight: var(--paragraph-lg-weight);
+  line-height: var(--paragraph-lg-line-height);
+  margin-bottom: var(--paragraph-lg-spacing);
+}
+
+.paragraph-md {
+  font-family: var(--font-family-primary);
+  font-size: var(--paragraph-md-size);
+  font-weight: var(--paragraph-md-weight);
+  line-height: var(--paragraph-md-line-height);
+  margin-bottom: var(--paragraph-md-spacing);
+}
+
+.paragraph-sm {
+  font-family: var(--font-family-primary);
+  font-size: var(--paragraph-sm-size);
+  font-weight: var(--paragraph-sm-weight);
+  line-height: var(--paragraph-sm-line-height);
+  margin-bottom: var(--paragraph-sm-spacing);
+}
+
+/* ========================================
+   SHADOW UTILITY CLASSES
+   ======================================== */
+
+.shadow-sm {
+  box-shadow: var(--shadow-sm);
+}
+
+.focus-primary {
+  box-shadow: var(--focus-primary);
+}
+
+/* ========================================
+   COMPONENT STYLES
+   ======================================== */
+
+/* Button Component */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-family: var(--font-family-primary);
+  font-size: var(--paragraph-md-size);
+  font-weight: 500;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: var(--focus-primary);
+}
+
+.btn-primary {
+  background-color: var(--color-primary);
+  color: var(--color-text-inverse);
+}
+
+.btn-primary:hover {
+  background-color: var(--color-primary-hover);
+}
+
+.btn-secondary {
+  background-color: var(--color-secondary);
+  color: var(--color-text-inverse);
+}
+
+.btn-secondary:hover {
+  background-color: var(--color-secondary-hover);
+}
+
+.btn-outline {
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+
+.btn-outline:hover {
+  background-color: var(--color-primary);
+  color: var(--color-text-inverse);
+}
+
+/* Card Component */
+.card {
+  background-color: var(--color-bg-primary);
+  border-radius: 8px;
+  padding: 24px;
+  box-shadow: var(--shadow-sm);
+  border: 1px solid var(--color-border-secondary);
+}
+
+.card-header {
+  margin-bottom: 16px;
+}
+
+.card-title {
+  font-family: var(--font-family-primary);
+  font-size: var(--display-7-size);
+  font-weight: 600;
+  color: var(--color-text-primary);
+  margin: 0 0 8px 0;
+}
+
+.card-description {
+  font-family: var(--font-family-primary);
+  font-size: var(--paragraph-sm-size);
+  color: var(--color-text-secondary);
+  margin: 0;
+}
+
+/* Input Component */
+.input {
+  width: 100%;
+  padding: 12px 16px;
+  border: 1px solid var(--color-border-primary);
+  border-radius: 6px;
+  font-family: var(--font-family-primary);
+  font-size: var(--paragraph-md-size);
+  color: var(--color-text-primary);
+  background-color: var(--color-bg-primary);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.input:focus {
+  outline: none;
+  border-color: var(--color-border-focus);
+  box-shadow: var(--focus-primary);
+}
+
+.input::placeholder {
+  color: var(--color-text-tertiary);
+}
+
+/* Gradient Background Classes */
+.bg-gradient-red-1 { background: var(--gradient-red-1); }
+.bg-gradient-red-2 { background: var(--gradient-red-2); }
+.bg-gradient-red-3 { background: var(--gradient-red-3); }
+
+.bg-gradient-blue-1 { background: var(--gradient-blue-1); }
+.bg-gradient-blue-2 { background: var(--gradient-blue-2); }
+.bg-gradient-blue-3 { background: var(--gradient-blue-3); }
+
+.bg-gradient-dark-1 { background: var(--gradient-dark-1); }
+.bg-gradient-dark-2 { background: var(--gradient-dark-2); }
+.bg-gradient-dark-3 { background: var(--gradient-dark-3); }
+
+.bg-gradient-light-1 { background: var(--gradient-light-1); }
+.bg-gradient-light-2 { background: var(--gradient-light-2); }
+.bg-gradient-light-3 { background: var(--gradient-light-3); }
+.bg-gradient-light-4 { background: var(--gradient-light-4); }
+
+/* Color Background Classes */
+.bg-red-500 { background-color: var(--red-500); }
+.bg-blue-500 { background-color: var(--blue-500); }
+.bg-violet-500 { background-color: var(--violet-500); }
+.bg-orange-500 { background-color: var(--orange-500); }
+.bg-green-500 { background-color: var(--green-500); }
+
+/* Text Color Classes */
+.text-primary { color: var(--color-text-primary); }
+.text-secondary { color: var(--color-text-secondary); }
+.text-tertiary { color: var(--color-text-tertiary); }
+.text-inverse { color: var(--color-text-inverse); }
+.text-red-500 { color: var(--red-500); }
+.text-blue-500 { color: var(--blue-500); }
+
+/* ========================================
+   RESPONSIVE DESIGN
+   ======================================== */
+
+@media (max-width: 768px) {
+  .display-1 { font-size: 64px; line-height: 70.4px; }
+  .display-2 { font-size: 48px; line-height: 52.8px; }
+  .display-3 { font-size: 40px; line-height: 46px; }
+  .display-4 { font-size: 36px; line-height: 41.4px; }
+  .display-5 { font-size: 32px; line-height: 38.4px; }
+  .display-6 { font-size: 24px; line-height: 28.8px; }
+  .display-7 { font-size: 20px; line-height: 28px; }
+}
+
+@media (max-width: 480px) {
+  .display-1 { font-size: 48px; line-height: 52.8px; }
+  .display-2 { font-size: 40px; line-height: 46px; }
+  .display-3 { font-size: 36px; line-height: 41.4px; }
+  .display-4 { font-size: 32px; line-height: 38.4px; }
+  .display-5 { font-size: 24px; line-height: 28.8px; }
+  .display-6 { font-size: 20px; line-height: 28px; }
+  .display-7 { font-size: 18px; line-height: 24px; }
+}
