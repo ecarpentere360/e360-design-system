@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E360 Design System - Components</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 40px;
+            background-color: var(--cool-gray-100);
+            font-family: var(--font-family-primary);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        
+        .section {
+            background: white;
+            border-radius: 8px;
+            padding: 40px;
+            margin-bottom: 40px;
+            box-shadow: var(--shadow-sm);
+        }
+        
+        .section-title {
+            font-size: var(--display-4-size);
+            font-weight: 600;
+            margin-bottom: 30px;
+            color: var(--color-text-primary);
+            border-bottom: 2px solid var(--red-500);
+            padding-bottom: 16px;
+        }
+        
+        .component-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-bottom: 40px;
+        }
+        
+        .component-demo {
+            padding: 20px;
+            border: 1px solid var(--cool-gray-200);
+            border-radius: 8px;
+            background: var(--cool-gray-50);
+        }
+        
+        .component-title {
+            font-size: var(--display-7-size);
+            font-weight: 600;
+            margin-bottom: 16px;
+            color: var(--color-text-primary);
+        }
+        
+        .button-group {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        
+        .input-group {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+            margin-bottom: 20px;
+        }
+        
+        .card-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .gradient-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        
+        .gradient-card {
+            height: 120px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-weight: 600;
+            text-shadow: 0 1px 2px rgba(0,0,0,0.3);
+        }
+        
+        .code-example {
+            background: var(--cool-gray-900);
+            color: var(--cool-gray-0);
+            padding: 20px;
+            border-radius: 6px;
+            font-family: 'Courier New', monospace;
+            font-size: 14px;
+            overflow-x: auto;
+            margin-top: 20px;
+        }
+        
+        .focus-demo {
+            padding: 20px;
+            border: 2px dashed var(--cool-gray-300);
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .focus-demo:focus-within {
+            border-color: var(--red-500);
+            box-shadow: var(--focus-primary);
+        }
+        
+        .shadow-demo {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            margin: 20px 0;
+            transition: box-shadow 0.3s ease;
+        }
+        
+        .shadow-demo:hover {
+            box-shadow: var(--shadow-sm);
+        }
+        
+        .interactive-demo {
+            background: var(--gradient-light-2);
+            padding: 30px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+        
+        .status-indicators {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin: 20px 0;
+        }
+        
+        .status-badge {
+            padding: 8px 16px;
+            border-radius: 20px;
+            font-size: var(--paragraph-sm-size);
+            font-weight: 500;
+        }
+        
+        .status-success {
+            background-color: var(--color-success-light);
+            color: var(--color-success);
+        }
+        
+        .status-warning {
+            background-color: var(--color-warning-light);
+            color: var(--color-warning);
+        }
+        .status-error {
+            background-color: var(--color-error-light);
+            color: var(--color-error);
+        }
+        
+        .status-info {
+            background-color: var(--color-info-light);
+            color: var(--color-info);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1 class="display-1">Component Library</h1>
+            <p class="paragraph-lg">Interactive components built with the E360 design system</p>
+        </div>
+
+        <!-- Buttons Section -->
+        <div class="section">
+            <h2 class="section-title">Buttons</h2>
+            
+            <div class="component-demo">
+                <div class="component-title">Primary Buttons</div>
+                <div class="button-group">
+                    <button class="btn btn-primary">Primary Button</button>
+                    <button class="btn btn-primary" disabled>Disabled</button>
+                </div>
+                <div class="code-example">
+&lt;button class="btn btn-primary"&gt;Primary Button&lt;/button&gt;
+&lt;button class="btn btn-primary" disabled&gt;Disabled&lt;/button&gt;
+                </div>
+            </div>
+
+            <div class="component-demo">
+                <div class="component-title">Secondary Buttons</div>
+                <div class="button-group">
+                    <button class="btn btn-secondary">Secondary Button</button>
+                    <button class="btn btn-outline">Outline Button</button>
+                </div>
+                <div class="code-example">
+&lt;button class="btn btn-secondary"&gt;Secondary Button&lt;/button&gt;
+&lt;button class="btn btn-outline"&gt;Outline Button&lt;/button&gt;
+                </div>
+            </div>
+        </div>
+
+        <!-- Cards Section -->
+        <div class="section">
+            <h2 class="section-title">Cards</h2>
+            
+            <div class="card-grid">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Standard Card</h3>
+                        <p class="card-description">A basic card with shadow and border</p>
+                    </div>
+                    <p class="paragraph-md">This is the content area of the card. It can contain any type of content including text, images, or other components.</p>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Card with Button</h3>
+                        <p class="card-description">Card with interactive elements</p>
+                    </div>
+                    <p class="paragraph-md">This card includes a call-to-action button.</p>
+                    <button class="btn btn-primary" style="margin-top: 16px;">Learn More</button>
+                </div>
+
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Info Card</h3>
+                        <p class="card-description">Card with informational content</p>
+                    </div>
+                    <p class="paragraph-md">Use cards to group related information and create visual hierarchy in your layouts.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Forms Section -->
+        <div class="section">
+            <h2 class="section-title">Form Elements</h2>
+            
+            <div class="component-demo">
+                <div class="component-title">Input Fields</div>
+                <div class="input-group">
+                    <input type="text" class="input" placeholder="Enter your name">
+                    <input type="email" class="input" placeholder="Enter your email">
+                    <input type="password" class="input" placeholder="Enter your password">
+                </div>
+                <div class="code-example">
+&lt;input type="text" class="input" placeholder="Enter your name"&gt;
+&lt;input type="email" class="input" placeholder="Enter your email"&gt;
+&lt;input type="password" class="input" placeholder="Enter your password"&gt;
+                </div>
+            </div>
+
+            <div class="focus-demo">
+                <div class="component-title">Focus States</div>
+                <p class="paragraph-md">Click on the input below to see the focus state:</p>
+                <input type="text" class="input" placeholder="Click here to see focus state" style="max-width: 300px;">
+            </div>
+        </div>
+
+        <!-- Gradients Section -->
+        <div class="section">
+            <h2 class="section-title">Gradient Backgrounds</h2>
+            
+            <div class="gradient-cards">
+                <div class="gradient-card bg-gradient-red-1">Red Gradient 1</div>
+                <div class="gradient-card bg-gradient-blue-1">Blue Gradient 1</div>
+                <div class="gradient-card bg-gradient-light-1">Light Gradient 1</div>
+                <div class="gradient-card bg-gradient-dark-1">Dark Gradient 1</div>
+            </div>
+            
+            <div class="code-example">
+&lt;div class="gradient-card bg-gradient-red-1"&gt;Red Gradient 1&lt;/div&gt;
+&lt;div class="gradient-card bg-gradient-blue-1"&gt;Blue Gradient 1&lt;/div&gt;
+&lt;div class="gradient-card bg-gradient-light-1"&gt;Light Gradient 1&lt;/div&gt;
+&lt;div class="gradient-card bg-gradient-dark-1"&gt;Dark Gradient 1&lt;/div&gt;
+            </div>
+        </div>
+
+        <!-- Shadows Section -->
+        <div class="section">
+            <h2 class="section-title">Shadows & Effects</h2>
+            
+            <div class="component-demo">
+                <div class="component-title">Shadow Effects</div>
+                <div class="shadow-demo">
+                    <h4 class="display-7">Hover for Shadow</h4>
+                    <p class="paragraph-md">This card has a subtle shadow that appears on hover. Shadows help create depth and hierarchy in your design.</p>
+                </div>
+                <div class="code-example">
+.shadow-demo {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+.shadow-demo:hover {
+  box-shadow: var(--shadow-sm);
+}
+                </div>
+            </div>
+        </div>
+
+        <!-- Status Indicators -->
+        <div class="section">
+            <h2 class="section-title">Status Indicators</h2>
+            
+            <div class="component-demo">
+                <div class="component-title">Status Badges</div>
+                <div class="status-indicators">
+                    <span class="status-badge status-success">Success</span>
+                    <span class="status-badge status-warning">Warning</span>
+                    <span class="status-badge status-error">Error</span>
+                    <span class="status-badge status-info">Info</span>
+                </div>
+                <div class="code-example">
+&lt;span class="status-badge status-success"&gt;Success&lt;/span&gt;
+&lt;span class="status-badge status-warning"&gt;Warning&lt;/span&gt;
+&lt;span class="status-badge status-error"&gt;Error&lt;/span&gt;
+&lt;span class="status-badge status-info"&gt;Info&lt;/span&gt;
+                </div>
+            </div>
+        </div>
+
+        <!-- Interactive Demo -->
+        <div class="interactive-demo">
+            <h3 class="display-6">Interactive Demo</h3>
+            <p class="paragraph-md">This section demonstrates how different components work together to create a cohesive user interface.</p>
+            
+            <div class="card" style="margin-top: 20px;">
+                <div class="card-header">
+                    <h3 class="card-title">Complete Form Example</h3>
+                    <p class="card-description">A form using multiple components from the design system</p>
+                </div>
+                
+                <div class="input-group">
+                    <input type="text" class="input" placeholder="Full Name">
+                    <input type="email" class="input" placeholder="Email Address">
+                    <input type="tel" class="input" placeholder="Phone Number">
+                </div>
+                
+                <div class="button-group">
+                    <button class="btn btn-primary">Submit</button>
+                    <button class="btn btn-outline">Cancel</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Usage Guidelines -->
+        <div class="section">
+            <h2 class="section-title">Usage Guidelines</h2>
+            
+            <div class="component-demo">
+                <h4 class="display-7">Button Guidelines</h4>
+                <ul class="paragraph-md">
+                    <li>Use <strong>Primary buttons</strong> for main actions (Submit, Save, Continue)</li>
+                    <li>Use <strong>Secondary buttons</strong> for supporting actions</li>
+                    <li>Use <strong>Outline buttons</strong> for less prominent actions</li>
+                    <li>Always provide clear, action-oriented button text</li>
+                </ul>
+                
+                <h4 class="display-7">Card Guidelines</h4>
+                <ul class="paragraph-md">
+                    <li>Use cards to group related information</li>
+                    <li>Keep card content concise and focused</li>
+                    <li>Use consistent spacing and typography within cards</li>
+                    <li>Cards work well in grid layouts for content organization</li>
+                </ul>
+                
+                <h4 class="display-7">Form Guidelines</h4>
+                <ul class="paragraph-md">
+                    <li>Use clear, descriptive labels and placeholders</li>
+                    <li>Provide immediate feedback for validation errors</li>
+                    <li>Group related form fields together</li>
+                    <li>Use appropriate input types for better mobile experience</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
